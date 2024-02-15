@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pitha Ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    
+   <main>
+    <section>
+        <h2>Please fill up form</h2>
+        <form action="">
+            <label for="name">Your Name :
+                <input id="name" type="text" placeholder="your name">
+            </label>
+            <label for="email">Your Email :
+                <input type="email" name="" id="email" placeholder="Your Email">
+            </label>
+            <label for="phone">Your Phone :
+                <input id="phone" type="text" placeholder="Your Phone">
+            </label>
+            <fieldset>
+                <legend>Chose Your Pitha</legend>
+                <label for="Vapa">
+                    <input type="radio" name="Pitha" id="Vapa">Vapa
+                </label>
+                <label for="Chitoy">
+                    <input type="radio" name="Pitha" id="Chitoy">Chitoy
+                </label>
+                <label for="Pathi-Shapta">
+                    <input type="radio" name="Pitha" id="Pathi-Shapta">Pathi-Shapta
+                </label>
+            </fieldset>
+            <fieldset>                          
+                <legend>Pick One Vorta</legend>
+                <label for="Sorisa">
+                    <input type="radio" name="vorta" id="Sorisa">Sorisa
+                </label>
+                <label for="Shutki">
+                    <input type="radio" name="vorta" id="Shutki">Shutki
+                </label>
+                <label for="Morich">
+                    <input type="radio" name="vorta" id="Morich">Morich
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+            </fieldset>
+            <input style="margin: 20px;" type="reset" value="Reset">
+            </form>
+    </section>
+    <section>
+        <h2>HTML Table</h2>
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder Geogle</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark zukarbarg</td>
+                    <td>Founder Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+
+    </section>
+   </main>
 </body>
 </html>
